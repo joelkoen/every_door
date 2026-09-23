@@ -41,7 +41,7 @@ class ImageryProvider extends Notifier<Imagery> {
             'https://osmlab.github.io/editor-layer-index/sources/world/Bing.png'),
     attribution: '© Microsoft Bing',
     minZoom: 1,
-    maxZoom: 22,
+    maxZoom: 20,
   ).decrypt();
 
   static final maxarPremiumImagery = TmsImagery(
